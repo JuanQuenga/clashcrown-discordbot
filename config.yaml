@@ -1,0 +1,12 @@
+discord:
+ token: 'NTkyODk4OTI3MTg3OTg0NDE0.XmlhAQ.BQMhMZDEuIaD8fWdjwCnI1tAe7U'
+ prefix: '!'
+ ownerUserID: '228781414986809344'
+ playing: 'Stay Safe!'
+mongo:
+ host: 'localhost'
+ port: 27017
+ database: 'stats_cr'
+api:
+ token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjEyNzk4OWU0LWJhMWMtNDczMi04NzliLTJiNjI0NGRkMmMwMyIsImlhdCI6MTU4Mzk3ODMwNCwic3ViIjoiZGV2ZWxvcGVyL2ViYWM2OWVjLWMzY2ItMjViMC05YTg3LTExYTViYWQ1YmVhMiIsInNjb3BlcyI6WyJyb3lhbGU6Kjp2ZXJpZnl0b2tlbiJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIzLjI4LjEwNC44NCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.xbASTG-yCT3HdW6neU4lorbV_4jEVAFInVbW_UMrNYQhsRkC32RO5OLJklH-zaWTLhJrXc-C5rqjHXTEBkKELA'
+ baseUrl: 'https://api.clashroyale.com/v1'

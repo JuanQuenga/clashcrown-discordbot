@@ -1,0 +1,29 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-microsoft-contrib",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+      "no-relative-imports": false,
+      "missing-jsdoc": false,
+      "export-name": false,
+      "interface-name": false,
+      "semicolon": [true, "always", "ignore-bound-class-methods"],
+      "no-parameter-properties": false,
+      "no-unnecessary-class": false,
+      "no-backbone-get-set-outside-model": false,
+      "no-void-expression": false,
+      "prefer-type-cast": false,
+      "strict-boolean-expressions": false,
+      "no-floating-promises": false,
+      "no-unsafe-any": false
+    },
+    "rulesDirectory": [],
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*"]
+    }
+  }
