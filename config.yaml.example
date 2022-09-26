@@ -1,0 +1,8 @@
+discord:
+  token: 'Discord Bot Token Here'
+  prefix: '!'
+  ownerUserID: '000000000000'
+ mongo:
+  host: 'localhost'
+  port: 27017
+  database: 'stats_cr'

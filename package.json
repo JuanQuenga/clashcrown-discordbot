@@ -1,0 +1,61 @@
+{
+  "name": "clashroyale-statsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.ts\"",
+    "postinstall": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/main.js",
+    "debug": "node -r dotenv/config dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harmiox/clashroyale-statsbot.git"
+  },
+  "author": "Harmiox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harmiox/clashroyale-statsbot/issues"
+  },
+  "homepage": "https://github.com/Harmiox/clashroyale-statsbot#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.18.1",
+    "bases": "^0.2.1",
+    "canvas": "^2.6.1",
+    "comma-number": "^2.0.1",
+    "discord-akairo": "^8.0.0",
+    "discord.js": "^12.0.2",
+    "js-yaml": "^3.13.1",
+    "klasa": "github:dirigeants/klasa#master",
+    "long": "^4.0.0",
+    "mysql2": "^1.7.0",
+    "pg": "^7.12.1",
+    "pretty-hrtime": "^1.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sequelize": "^4.44.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/bases": "^0.2.2",
+    "@types/hapi__joi": "^16.0.12",
+    "@types/js-yaml": "^3.12.2",
+    "@types/long": "^4.0.0",
+    "@types/node": "^10.14.18",
+    "@types/pretty-hrtime": "^1.0.0",
+    "@types/request": "^2.48.3",
+    "@types/request-promise": "^4.1.44",
+    "@types/sequelize": "^4.28.4",
+    "@types/ws": "^7.2.2",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.7.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-microsoft-contrib": "^5.2.1",
+    "typescript": "^3.8.3"
+  }
+}
